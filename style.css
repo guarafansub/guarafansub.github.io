@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(15, 15, 15);
+    
+}
+
+header {
+  display: block;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.box {
+  position: relative;
+  display: block;
+  height: 50px;
+  top: 10px;
+  margin: 0 10px;
+}
+
+.box .title {
+  display: inline;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+nav {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav li {
+  display: inline;
+  margin: 5px;
+}
+
+input[type=search] {
+  display: inline-block;
+  position: absolute;
+  border: none;
+  border-radius: 3px;
+  background-color: #101010;
+  color: whitesmoke;
+  outline: none;
+  bottom: 39%;
+  right: 0;
+  padding: 12px;
+  height: 30px;
+  width: 30%;
+}
+
+main {
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.episode-list {
+  margin: 1%;
+}
+
+.episode {
+  display: inline-block;
+  margin: 1%;
+  color: whitesmoke;
+  border: 1px #EEEEEE solid;
+  background-color: #050505;
+  height: 200px;
+  width: 300px;
+  transition: 0.1s transform;
+}
+
+.episode:hover {
+  transform: translate(-2%, -2%);
+  cursor: pointer;
+}
+
+.episode:hover .item-text {
+  text-decoration: underline;
+}
+
+.episode .item-text {
+  position: sticky;
+  display: inline-block;
+  top: 100%;
+  margin: 10px 10px;
+}
+
+.item-text .ep-num {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.item-text .ep-title {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.item-text .ep-date {
+  font-family: sans-serif;
+}
+
+.item-text h2, .item-text h3, .item-text p {
+  margin: 5px 0 0 0;
+}
+
